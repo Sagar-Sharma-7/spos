@@ -1,0 +1,5 @@
+Enter process details (Arrival Time, Burst Time, Priority):
+Process 1: 0 8 3
+Process 2: 1 4 1
+Process 3: 2 5 4
+Process 4: 3 2 2
