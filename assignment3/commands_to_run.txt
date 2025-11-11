@@ -1,0 +1,15 @@
+win_bison -d expr.y
+win_flex expr.l
+gcc lex.yy.c expr.tab.c -o expr.exe
+.\expr.exe
+
+
+-- for linux
+sudo apt update
+sudo apt install flex bison gcc
+
+bison -d expr.y
+flex expr.l
+gcc lex.yy.c expr.tab.c -o expr -lfl
+./expr
+
